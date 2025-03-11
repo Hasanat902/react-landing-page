@@ -6,6 +6,7 @@ import DesignSection from "./components/DesignSection";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import TryNow from "./components/TryNow";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <DesignSection />
       <CustomerSection />
       <About />
+      <TryNow />
     </>
   );
 }
