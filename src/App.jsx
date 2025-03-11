@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About";
 import CompanyLogo from "./components/CompanyLogo";
 import CustomerSection from "./components/CustomerSection";
 import DesignSection from "./components/DesignSection";
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <DesignSection />
       <CustomerSection />
+      <About />
     </>
   );
 }
